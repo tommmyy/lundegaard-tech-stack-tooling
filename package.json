@@ -1,26 +1,18 @@
 {
-	"name": "t-mobile-workshop-react-es6",
+	"name": "lundegaard-tech-stack-js-fp",
 	"version": "1.0.0",
 	"main": "index.js",
-	"repository": "https://github.com/tommmyy/reveal-js-lundegaard-scaffold.git",
+	"repository": "https://github.com/tommmyy/lundegaard-tech-stack-js-fp.git",
 	"author": "Tomáš Konrády <tomaskonrady@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
-		"@babel/cli": "^7.0.0",
-		"@babel/core": "^7.0.0",
-		"@babel/preset-env": "^7.0.0",
 		"eslint": "^5.6.0",
-		"eslint-config-standard": "^12.0.0",
-		"eslint-plugin-import": "^2.14.0",
-		"eslint-plugin-node": "^7.0.1",
-		"eslint-plugin-promise": "^4.0.1",
-		"eslint-plugin-standard": "^4.0.0",
-		"prettier": "^1.14.3"
-	},
-	"dependencies": {
-		"@babel/polyfill": "^7.0.0"
+		"prettier": "^1.14.3",
+		"webpack": "^4.20.2",
+		"webpack-cli": "^3.1.2"
 	},
 	"scripts": {
-		"build": "babel src --out-dir lib"
+		"build": "webpack --mode production",
+		"build:dev": "webpack --mode development"
 	}
 }
