@@ -1,8 +1,8 @@
 {
-	"name": "t-mobile-workshop-react-es6",
+	"name": "lundegaard-tech-stack-tooling",
 	"version": "1.0.0",
 	"main": "index.js",
-	"repository": "https://github.com/tommmyy/reveal-js-lundegaard-scaffold.git",
+	"repository": "https://github.com/tommmyy/lundegaard-tech-stack-tooling.git",
 	"author": "Tomáš Konrády <tomaskonrady@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
