@@ -1,3 +1,5 @@
 import { hello } from './hello';
 
-hello();
+console.log(
+	hello({ name: 'Darth', surname: 'Vader' })
+);
