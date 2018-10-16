@@ -4,6 +4,7 @@ module.exports = {
 			'@babel/preset-env',
 			{
 				targets: {
+					ie: '6',
 					edge: '17',
 					firefox: '60',
 					chrome: '67',
