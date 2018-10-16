@@ -1,3 +1,3 @@
-const hello = () => 'Hello';
+import { hello } from './hello';
 
-Promise.resolve().then(hello);
+hello();

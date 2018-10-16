@@ -1,5 +1,13 @@
 {
-    "extends": "standard",
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
     "rules": {
         "indent": ["error", "tab"],
         "no-tabs": 0,
