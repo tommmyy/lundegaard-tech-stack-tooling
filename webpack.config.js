@@ -13,10 +13,10 @@ module.exports = {
 	},
 	plugins: [
 		new CleanWebpackPlugin(['lib']),
-		// new HtmlWebpackPlugin({
-		// 	title: 'Development',
-		// 	template: 'src/assets/index.html'
-		// })
+		new HtmlWebpackPlugin({
+			title: 'Development',
+			template: 'src/assets/index.html'
+		})
 	],
 	output: {
 		filename: '[name].bundle.js',
