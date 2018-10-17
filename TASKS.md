@@ -7,7 +7,8 @@ Přečtěte si `README.md`.
 ## Úkoly
 
 0. Seznamte se změnami v `package.json`. Které závislosti přibyly?
-1. Seznam se s `webpack.config.js`. Přidej `html-webpack-plugin` jako DEV dependency do projektu. Následně nakonfiguruj webpack tak, aby používal plugin se šablonou ze `src/assets/index.html`. Spusť projekt v DEV režimu (viz README.md) a zjisti jestli výsledný dokument renderuje "Hello world".
+1. Seznam se s `webpack.config.js`. Přidej `html-webpack-plugin` jako DEV dependency do projektu. Následně nakonfiguruj webpack tak, aby používal plugin se šablonou ze `src/assets/index.html`.
+Spusť projekt v DEV režimu (viz README.md) a zjisti jestli výsledný dokument renderuje text "Hello world".
 2. Zjednoduš šablonu tak, že bude obsahovat pouze `div#root`.
 3. Přepiš kód tak, aby prováděl následující:
 	- Pomocí funkce `fetch` si načti náhodnou fotografii kočky z 'https://api.thecatapi.com/v1/images/search?format=json'.

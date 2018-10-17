@@ -1,5 +1,3 @@
-import '@babel/polyfill';
-
 const rootEl = document.getElementById('root');
 
 const renderImage = (src) => {
